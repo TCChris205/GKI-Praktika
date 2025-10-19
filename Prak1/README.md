@@ -164,7 +164,9 @@ Neue Werte: (Abrundungen der Luftlinien)
 
 Eine Heuristik h1 dominiert eine andere Heuristik h2, wenn die geschätzten Werte für alle Knoten von h1 größer sind als die von h2 und die Heuristik trotzdem zulässig ist.
 
-Nimmt man als Beispiel das Finden eines Optimalen Weges von einer Stadt zur anderen, so wäre eine heuristik h1 dominierend im Vergleich zu einer Heuristik h2, wenn alle Werte in h1 näher an der Luftlinie zwischen dem aktuellen und Zielknoten sind.
+Nutzt man eine dominantere Heuristik gegenüber einer weniger dominanten Heuristik, sind die Schätzungen genauer und A\* insgesamt schneller.
+
+Nimmt man als Beispiel das Finden eines Optimalen Weges von einer Stadt zur anderen, so wäre eine Heuristik h1 dominierend im Vergleich zu einer Heuristik h2, wenn alle Werte in h1 näher an der Luftlinie zwischen dem aktuellen und Zielknoten sind.
 
 ## 4
 
